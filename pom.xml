@@ -5,7 +5,7 @@
 	<version>0.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/navyasura/GITFlowMavenRelease</connection>
-	  <tag>HEAD</tag>
+	  
   </scm>
 	<dependencies>
 
@@ -41,7 +41,7 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<pushChanges>false</pushChanges> <!--Release Plugin don't push to remote -->
+					<pushChanges>true</pushChanges> <!--Release Plugin don't push to remote -->
 					<localCheckout>true</localCheckout> <!--Release Plugin clone from local repo -->
 				</configuration>
 			</plugin>
