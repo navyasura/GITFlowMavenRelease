@@ -2,10 +2,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>GitFlowMavenRelease</groupId>
 	<artifactId>GitFlowMavenRelease</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/navyasura/GITFlowMavenRelease</connection>
-	  <tag>v2</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<dependencies>
 
